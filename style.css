@@ -1,0 +1,17 @@
+:root{
+    --shire-primary: #a57548;
+    --shire-secondary: #FCD7AD;
+    --midcolor: #f6c28b;
+}
+
+
+
+bgc
+
+h7{
+font-size: 1.2em;
+}
+
+.colorsec{
+    color: var(--shire-secondary);
+}
