@@ -4,116 +4,118 @@
     --midcolor: #f6c28b;
 }
 
-.secondary{
+/*--> COLORS&BACKGROUND<--*/
 
-    border-left: 12px solid;
-    border-color: var(--midcolor);
+.secondarycolor1{
+border-left: 12px solid;
+border-color: var(--midcolor);
 }
-
-h1{
-    font-family: 'Ephesis', cursive;
+.colorcard1{
+background-color: var(--shire-secondary);
+opacity: .8;
 }
-
-.colorcard{
-    background-color: var(--shire-secondary);
-    opacity: .8;
-}
-
-.buttonmore{
-    background-color: var(--shire-secondary); 
-}
-.buttonmore:hover{
-    background-color: var(--shire-primary); 
-}
-
-.bgprimary{
+.bgprimarycolor{
     background: var(--shire-primary);
 }
-
 .colorsec{
     color: var(--shire-secondary);
 }
-.bgcolorsec{
+.bgfooter{
     background-color: var(--shire-secondary);
 }
-
-.colorstart{
-    color: var(--midcolor)
-}
-
-.header-primary{
+.bgheader{
     background: linear-gradient(to bottom, var(--shire-primary) 70%, transparent 100%);
 }
-
 .bgshire{
     background: linear-gradient(to top, transparent, white), url(https://images.unsplash.com/photo-1506466010722-395aa2bef877?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1330&q=80);
     background-size: cover;
 }
-.marform{
-    margin-top: 4em;
-    margin-bottom: 4em;
-}
-
 .whitebg{
     background: white;
 }
-
-.lgraybg{
-    background-image: url(https://png2.cleanpng.com/sh/d0c91ef05fc7d0507e2421d44f0d71cb/L0KzQYm3U8MyN5psiZH0aYP2gLBuTgRpbV5xhARtLXBpPcXvhb1zcZ9si59wYX7ncb3tTgNifaN0hp9yc3nvdMb5Tf9vbV53Rd54cnSwf7e0lPhmNaNuhtl8LUXkc4G7UsFlOZRrfaQ8LkW5SYSBVsI0OWY3Sqc9OUK6R4K4WMgveJ9s/kisspng-the-lord-of-the-rings-gandalf-sauron-isildur-one-r-lord-of-the-rings-5ac0421d1cfe23.5693862315225492771188.png);
-    background-size: cover;
-    min-height: 30em;
-
+.transpcolorbg{
+    background-color: transparent;
+    border-color: transparent;
+}
+.imgbordround{
+    border-radius: 2.5%;
+}
+.bgbotrow{
+    background: linear-gradient(to top, transparent, white), url(https://images.squarespace-cdn.com/content/v1/53bacd42e4b0330a35101bf3/1630203122000-7B1XE084D83RHKU0SSFC/BellaMaven.ZakasPhotography.about-mountains-01.png);
+    background-size: cover;  
+    height: 30em;
 }
 
+/*-->TEXT RELATED<--*/
+
+h1{
+    font-family: 'Ephesis', cursive;
+}
 p1{
     font-size: 1.5em;
-
     font-style: italic;
 }
 p2{
     font-size: 1em;
-
     font-style: italic;
 }
 p3{
     font-size: 1.5em;
-
     font-style: italic;
 }
 p4{
     font-size: 1em;
-
     font-style: italic;
 }
 
-.bprim{
-    border-color: var(--shire-primary);
-    
+/*-->BUTTONS<--*/
+
+.buttonsec{
+    background-color: var(--shire-secondary); 
+}
+.buttonsec:hover{
+    background-color: var(--shire-primary); 
 }
 
-.bgtransp{
-    background-color: transparent;
-    border-color: transparent;
-}
+/*-->MARGIN&PADDING<--*/
 
-.mtop {
+.marginform{
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+.margintop1 {
     margin-top: 5em;
     margin-left: 5em;
 }
-
-.mtxt2 {
+.margintexttop {
     margin-top: 14em;
 
 }
-
-.mbot {
+.marginbot1 {
     margin-left: 5em;
 }
-
-.imground{
-    border-radius: 2.5%;
+.pdcard{
+    padding-top: 5em;
+}
+.pdcardcen{
+    padding-bottom: 5em;
+}
+.margin3{
+    margin-top: 5em;
+    margin-bottom: 5em;
+    padding-left: 2em;
+    padding-right: 4em;
+    justify-self: center;
+}
+.imgpadding{
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.paddingtop{
+    padding-top: 7em;
 }
 
+/*-->CARDS<--*/
 
 .cardspill{
     position: absolute;
@@ -131,141 +133,159 @@ p4{
     height: 15em;
 }
 .cardsbot{
-
     border-style: solid;
     box-shadow: 2px 3px 6px black ;
     border-top: 2px black;
     border-left: 2px black;
     border-radius: 3%;
-
-}
-.pdcard{
-    padding-top: 5em;
 }
 
-.pdcardcen{
-    padding-bottom: 5em;
-}
+/*-->PROGRESSBARS<--*/
 
 .progressbar1 {
     width: 350px;
     height: 20px;
     background-color: #df9d5f;
-
-  }
+}
   .progressbar2 {
     width: 400px;
     height: 20px;
     background-color: #d6a170;
-
-  }
+}
   .progressbar3 {
     width: 330px;
     height: 20px;
     background-color: #a88665;
-
-  }
+}
   .progressbar4 {
     width: 370px;
     height: 20px;
     background-color: #c5a78c;
-
-  }
+}
   .progressbar5 {
     width: 470px;
     height: 20px;
     background-color: #f1c69f;
+}
+
+@-webkit-keyframes wobble-vertical-on-hover {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
   }
-
-  .marg3{
-      margin-top: 5em;
-      margin-bottom: 5em;
-      padding-left: 2em;
-      padding-right: 4em;
-    justify-self: center;
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
   }
-
-  .pad{
-    padding-top: 3em;
-    padding-bottom: 3em;
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
   }
-
-  .bgbotrow{
-    background: linear-gradient(to top, transparent, white), url(https://images.squarespace-cdn.com/content/v1/53bacd42e4b0330a35101bf3/1630203122000-7B1XE084D83RHKU0SSFC/BellaMaven.ZakasPhotography.about-mountains-01.png);
-    background-size: cover;  
-      height: 30em;
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
   }
-
-  .ptlast{
-      padding-top: 7em;
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
   }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes wobble-vertical-on-hover {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+.wobble-vertical-on-hover {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.wobble-vertical-on-hover:hover, .wobble-vertical-on-hover:focus, .wobble-vertical-on-hover:active {
+  -webkit-animation-name: wobble-vertical-on-hover;
+  animation-name: wobble-vertical-on-hover;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
 
-  @media only screen and (max-width: 768px) {
-        
-    .bgshire{
-        background-color: lightgray;
-        background: lightgray
-    }
-    .bodybg{
-        background: lightgray;
-    }
-    .marform{
-        margin-top: .5em;
-        margin-bottom: .5em;
-    }
-    .mtop {
-        margin-top: 0em;
-        margin-left: 0em;
-    }
+  /*-->MEDIA<--*/
 
-    
-    p1{
+@media only screen and (max-width: 768px) {
+.bgshire{
+    background-color: lightgray;
+    background: lightgray
+}
+.bodybg{
+    background: lightgray;
+}
+.marginform{
+    margin-top: 2em;
+    margin-bottom: 0em;
+}
+.mtop {
+    margin-top: 0em;
+    margin-left: 0em;
+}
+p1{
     display: none;
-    }
-    p2{
+}
+p2{
     display: none;
-    }
-    .cardspill{
+}
+.cardspill{
     position:inherit;
     margin-top: 2em;
-    }
-    .card{
+}
+.card{
     margin-bottom: 1em
-    }
-    .mg{
+}
 
-    max-width:100%;
-    justify-self: center;
-    margin-left: auto;
-    margin-right: auto;
- 
-    }
-
-    .mform{
-    max-width:100%;
-    justify-self: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3em;
-
-    }
-    .mtxt2 {
+.margintexttop {
      margin-top: 1em;
-        
-    }
-    .pad{
+}
+.pad{
     padding-top: 3em;
     padding-bottom: 0;
-    }
-    .whcardcenter{
-        width: 20em;
-        height: 20em;
-    }
-    .whcardsides{
-        width: 20em;
-        height: 15em;
-    }
-    .ptlast{
-        padding-top: 2em;
-    }
-    }
+}
+.whcardcenter{
+    width: 20em;
+    height: 20em;
+}
+.whcardsides{
+    width: 20em;
+    height: 15em;
+}
+.paddingtop{
+    padding-top: 2em;
+}
+}
