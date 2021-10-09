@@ -33,6 +33,9 @@ h1{
 .colorsec{
     color: var(--shire-secondary);
 }
+.bgcolorsec{
+    background-color: var(--shire-secondary);
+}
 
 .colorstart{
     color: var(--midcolor)
@@ -46,13 +49,20 @@ h1{
     background: linear-gradient(to top, transparent, white), url(https://images.unsplash.com/photo-1506466010722-395aa2bef877?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1330&q=80);
     background-size: cover;
 }
+.marform{
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
 
 .whitebg{
     background: white;
 }
 
 .lgraybg{
-    background: linear-gradient(white,rgb(158, 158, 158));
+    background-image: url(https://png2.cleanpng.com/sh/d0c91ef05fc7d0507e2421d44f0d71cb/L0KzQYm3U8MyN5psiZH0aYP2gLBuTgRpbV5xhARtLXBpPcXvhb1zcZ9si59wYX7ncb3tTgNifaN0hp9yc3nvdMb5Tf9vbV53Rd54cnSwf7e0lPhmNaNuhtl8LUXkc4G7UsFlOZRrfaQ8LkW5SYSBVsI0OWY3Sqc9OUK6R4K4WMgveJ9s/kisspng-the-lord-of-the-rings-gandalf-sauron-isildur-one-r-lord-of-the-rings-5ac0421d1cfe23.5693862315225492771188.png);
+    background-size: cover;
+    min-height: 30em;
+
 }
 
 p1{
@@ -100,6 +110,11 @@ p4{
     margin-left: 5em;
 }
 
+.imground{
+    border-radius: 2.5%;
+}
+
+
 .cardspill{
     position: absolute;
     top: 50em;
@@ -108,17 +123,17 @@ p4{
     height: auto;
 }
 .whcardcenter{
-    width: 20em;
-    height: 20em;
+    width: 27em;
+    height: 25em;
 }
 .whcardsides{
-    width: 15em;
+    width: 17em;
     height: 15em;
 }
 .cardsbot{
 
-border-style: solid;
-    box-shadow: 1px 1px 3px black ;
+    border-style: solid;
+    box-shadow: 2px 3px 6px black ;
     border-top: 2px black;
     border-left: 2px black;
     border-radius: 3%;
@@ -128,34 +143,38 @@ border-style: solid;
     padding-top: 5em;
 }
 
+.pdcardcen{
+    padding-bottom: 5em;
+}
+
 .progressbar1 {
     width: 350px;
     height: 20px;
-    background-color: rgb(71, 211, 204);
+    background-color: #df9d5f;
 
   }
   .progressbar2 {
     width: 400px;
     height: 20px;
-    background-color: rgb(80, 71, 211);
+    background-color: #d6a170;
 
   }
   .progressbar3 {
     width: 330px;
     height: 20px;
-    background-color: rgb(0, 0, 0);
+    background-color: #a88665;
 
   }
   .progressbar4 {
     width: 370px;
     height: 20px;
-    background-color: rgb(211, 71, 181);
+    background-color: #c5a78c;
 
   }
   .progressbar5 {
     width: 470px;
     height: 20px;
-    background-color: rgb(211, 71, 71);
+    background-color: #f1c69f;
   }
 
   .marg3{
@@ -171,6 +190,16 @@ border-style: solid;
     padding-bottom: 3em;
   }
 
+  .bgbotrow{
+    background: linear-gradient(to top, transparent, white), url(https://images.squarespace-cdn.com/content/v1/53bacd42e4b0330a35101bf3/1630203122000-7B1XE084D83RHKU0SSFC/BellaMaven.ZakasPhotography.about-mountains-01.png);
+    background-size: cover;  
+      height: 30em;
+  }
+
+  .ptlast{
+      padding-top: 7em;
+  }
+
   @media only screen and (max-width: 768px) {
         
     .bgshire{
@@ -180,9 +209,15 @@ border-style: solid;
     .bodybg{
         background: lightgray;
     }
-    .bgmobile{
-
+    .marform{
+        margin-top: .5em;
+        margin-bottom: .5em;
     }
+    .mtop {
+        margin-top: 0em;
+        margin-left: 0em;
+    }
+
     
     p1{
     display: none;
@@ -195,7 +230,7 @@ border-style: solid;
     margin-top: 2em;
     }
     .card{
-    margin-bottom: 3em
+    margin-bottom: 1em
     }
     .mg{
 
@@ -221,5 +256,16 @@ border-style: solid;
     .pad{
     padding-top: 3em;
     padding-bottom: 0;
+    }
+    .whcardcenter{
+        width: 20em;
+        height: 20em;
+    }
+    .whcardsides{
+        width: 20em;
+        height: 15em;
+    }
+    .ptlast{
+        padding-top: 2em;
     }
     }
