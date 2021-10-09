@@ -168,6 +168,8 @@ p4{
     background-color: #f1c69f;
 }
 
+/*-->ANIMATION<--*/
+
 @-webkit-keyframes wobble-vertical-on-hover {
   16.65% {
     -webkit-transform: translateY(8px);
