@@ -1,17 +1,225 @@
 :root{
-    --shire-primary: #a57548;
+    --shire-primary: #af8053;
     --shire-secondary: #FCD7AD;
     --midcolor: #f6c28b;
 }
 
+.secondary{
 
+    border-left: 12px solid;
+    border-color: var(--midcolor);
+}
 
-bgc
+h1{
+    font-family: 'Ephesis', cursive;
+}
 
-h7{
-font-size: 1.2em;
+.colorcard{
+    background-color: var(--shire-secondary);
+    opacity: .8;
+}
+
+.buttonmore{
+    background-color: var(--shire-secondary); 
+}
+.buttonmore:hover{
+    background-color: var(--shire-primary); 
+}
+
+.bgprimary{
+    background: var(--shire-primary);
 }
 
 .colorsec{
     color: var(--shire-secondary);
 }
+
+.colorstart{
+    color: var(--midcolor)
+}
+
+.header-primary{
+    background: linear-gradient(to bottom, var(--shire-primary) 70%, transparent 100%);
+}
+
+.bgshire{
+    background: linear-gradient(to top, transparent, white), url(https://images.unsplash.com/photo-1506466010722-395aa2bef877?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1330&q=80);
+    background-size: cover;
+}
+
+.whitebg{
+    background: white;
+}
+
+.lgraybg{
+    background: linear-gradient(white,rgb(158, 158, 158));
+}
+
+p1{
+    font-size: 1.5em;
+
+    font-style: italic;
+}
+p2{
+    font-size: 1em;
+
+    font-style: italic;
+}
+p3{
+    font-size: 1.5em;
+
+    font-style: italic;
+}
+p4{
+    font-size: 1em;
+
+    font-style: italic;
+}
+
+.bprim{
+    border-color: var(--shire-primary);
+    
+}
+
+.bgtransp{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.mtop {
+    margin-top: 5em;
+    margin-left: 5em;
+}
+
+.mtxt2 {
+    margin-top: 14em;
+
+}
+
+.mbot {
+    margin-left: 5em;
+}
+
+.cardspill{
+    position: absolute;
+    top: 50em;
+    right: 8rem;
+    width: auto;
+    height: auto;
+}
+.whcardcenter{
+    width: 20em;
+    height: 20em;
+}
+.whcardsides{
+    width: 15em;
+    height: 15em;
+}
+.cardsbot{
+
+border-style: solid;
+    box-shadow: 1px 1px 3px black ;
+    border-top: 2px black;
+    border-left: 2px black;
+    border-radius: 3%;
+
+}
+.pdcard{
+    padding-top: 5em;
+}
+
+.progressbar1 {
+    width: 350px;
+    height: 20px;
+    background-color: rgb(71, 211, 204);
+
+  }
+  .progressbar2 {
+    width: 400px;
+    height: 20px;
+    background-color: rgb(80, 71, 211);
+
+  }
+  .progressbar3 {
+    width: 330px;
+    height: 20px;
+    background-color: rgb(0, 0, 0);
+
+  }
+  .progressbar4 {
+    width: 370px;
+    height: 20px;
+    background-color: rgb(211, 71, 181);
+
+  }
+  .progressbar5 {
+    width: 470px;
+    height: 20px;
+    background-color: rgb(211, 71, 71);
+  }
+
+  .marg3{
+      margin-top: 5em;
+      margin-bottom: 5em;
+      padding-left: 2em;
+      padding-right: 4em;
+    justify-self: center;
+  }
+
+  .pad{
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+
+  @media only screen and (max-width: 768px) {
+        
+    .bgshire{
+        background-color: lightgray;
+        background: lightgray
+    }
+    .bodybg{
+        background: lightgray;
+    }
+    .bgmobile{
+
+    }
+    
+    p1{
+    display: none;
+    }
+    p2{
+    display: none;
+    }
+    .cardspill{
+    position:inherit;
+    margin-top: 2em;
+    }
+    .card{
+    margin-bottom: 3em
+    }
+    .mg{
+
+    max-width:100%;
+    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+ 
+    }
+
+    .mform{
+    max-width:100%;
+    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+
+    }
+    .mtxt2 {
+     margin-top: 1em;
+        
+    }
+    .pad{
+    padding-top: 3em;
+    padding-bottom: 0;
+    }
+    }
